@@ -1,8 +1,11 @@
 // add solution here
-function theBeatlesPlay(musiciansArr, instrumentsArr){
+function theBeatlesPlay(musicians, instruments){
   let newArr = [];
   let counter = 0;
-  for(let i = 0; i < musiciansArr.length; i++){
-    counter += i;
+  for(let i = 0; i < musicians.length; i++){
+    array.push(`${musicians[i]} plays ${instruments[i]}`);
+  }
+   return array;
+}
   }
 }
